@@ -31,4 +31,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ github.repository }}/flask-app:${{ github.sha }}
+          tags: ghcr.io/${{ github.actor }}/flask-app:${{ github.sha }}
